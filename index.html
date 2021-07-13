@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mi Primera web</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="IMAGENES/ANNGEL.ico">
+        <meta name="keywords" content= "web,desarrollo,internet,programacion,diseño">
+        <meta name="description" content="Descripcion de la pag. "Pag de desarrollo web"">
+        <meta name="author" content="Rodrigo Nahuel Montenegro">
+        <meta name="copyright" content="Montenegro Inc.">
+        <meta name="robots" content="index">
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Inicio</a></li>
+                    <li> <a href="micuenta.html">Mi cuenta</a></li>
+                    <li> <a href="nosotros.html">Sobre Nosotros</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <article>
+        <h1>Titulo de mi web</h1> <br>
+        <h2>Bienvenidos a mi web</h2>
+            <section>
+        <a href="#tablas">Click aqui para ir a Tablas</a> <br>
+        <a href="#formularios">Click aqui para ir a Formularios</a> <br>
+
+        <p>
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Haz <a href="https://google.com" target="_BLANK">Click aquí</a> para ir a google <br> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. <br> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        <blockquote> <!--Mandar a otra pag. redireccionar, se abre en otra pestaña-->
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        </blockquote>
+        </p>
+            </section>
+
+            <section>
+        <!--div separa / agrupa contenidos-->
+        <div>
+        <h3>Nombre de Producto</h3>
+        <p>
+            Precio : <b>$100</b>
+        </p> 
+        </div>
+        <div>
+        <h3>Nombre de Producto</h3>
+        <p>
+            Precio : <b>$375</b>
+        </p>
+        </div>
+        <div>
+        <h3>Nombre de Producto</h3>
+        <p>
+            Precio : <b>$500</b>
+        </p>
+        </div>
+            </section>
+
+            <section>
+        <hr/>
+            
+            <h2>Imagenes en HTML</h2>
+            <img src="IMAGENES/ANNGEL.jpg" alt="Imagen Random" tittle="Foto Random" width="250px"/>
+            
+        <p>
+            Aca va el <b>Video</b>:
+        </p>
+        <video src="IGTV.mp4" controls> 
+        </video>
+        <p>
+            Aca va el <b>Audio</b>:
+        </p>
+        <audio src="IGTV.mp4" controls>
+        </audio>
+        <hr/>
+        <h3>Tercer encabezado de la pag.</h3>
+        <p>
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        </p>
+            
+        <!--Listas ordenadas y desordenadas. 
+        con <ol> enumera las listas, 
+        con <ul> muestra puntitos-->
+        <h3>Listado de Elementos</h3>
+        <ol>
+            <li>primer elemento</li>
+            <li>segundo elemento</li>
+        </ol>
+        <ul>
+            <li>primer elemento
+                <ul>
+                    <li>uno</li>
+                    <li>dos</li>
+                </ul>
+            </li>
+            <li>segundo elemento</li>
+        </ul>
+            </section>
+        <hr/>
+
+        <!--Tablas,Border no se usa, Center para centrar Tampoco
+        CSS only-->
+
+            <h3 id="tablas">Tablas</h3>
+        <table border="1px">
+            <tr>
+                <th><b>Nombre</b></th>
+                <th><b>Apellido</b></th>
+                <th><b>Pais</b></th>
+                <th><b>ig</b></th>
+                <th><b>Seguidores</b></th>
+            </tr> 
+            <tr>
+                <td>Rodrigo</td>
+                <td>Montenegro</td>
+                <td>Argentina</td>
+                <td>Vampirestyler</td>
+                <td>+1500</td>
+            </tr> 
+        </table> <br>
+        </article>
+        
+        <hr>
+
+        <aside>
+        <h3 id="formularios">Formularios</h3>
+        <form>
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" required="" placeholder="Escribe Tu Nombre..."/> <br><br>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name= "contraseña" required="" ></imput> <br><br>
+                <label for="documento">Documento</label>
+                <input type="number" name= "documento" required="" ></input> <br>
+                <input type="color"> <br>
+                <input type="range" min="1" max="10"> <br>
+                <input type="date">  <br>
+                <input type="button" value="Boton"> <br> 
+                <input type="submit"> <br>
+            </p>
+            
+            <p>
+                <label for="descripcion">Descripcion</label> <br>
+                <textarea name="descripcion"></textarea>
+            </p>
+
+            <p>
+                <input type="radio" name="genero" value="hombre"> Hombre <br/>
+                <input type="radio" name="genero" value="mujer"> Mujer <br/>
+                <input type="radio" name="genero" value="indefinido"> Indefinido <br/>
+            </p>
+
+            <p>
+                <select>
+                    <option>Hombre</option>
+                    <option>Mujer</option>
+                </select> 
+            </p>
+        </form> <br>
+        <hr>
+        </aside>
+        
+        <footer>
+            <h4>Copiright - Todos los derechos reservados</h4>
+            <p>Seguime mis <b>redes</b></p>
+            <a href="https://instagram.com/vampirestyler">Instagram Personal</a>
+            <a href="https://instagram.com/vampirestyler.ph">Instagram Fotografia</a>
+        </footer>
+        </hr>
+    </body>
+    </head> 
+</html>
+
+
+
+
+
+
+<!-- #region 
+#Head Cabecera, Donde va Metadatos o info no visible en la pag.
+#Body es lo que se va a mostrar, el cuerpo de la pag. donde van los encabezados, parrafos info
+
+#Para hacer por ej "Click aqui" para ir a otra pag. <a href="https: //google.com"> y para que lo habra en otra pestaña, target = " "> click aqui </a>
+
+       #Etiquetas para Texto 
+#<h1></h1> Es el Titulo, luego sigue <h2></h2> es el subtitulo, Son encabezados aparecen mas grandes
+#<p></p> Es parrafo, para agregar informacion
+#<br> se usa para salto de linea, como usar 2 veces Enter
+#<hr/> crea una linea divisoria entre parrafos, como Br pero pinta una linea, se utiliza como separador
+#<strong></strong> se utiliza para convertir el texto en su interior en negrita. da importancia al Texto
+#<em></em> convierte el texto en su interior en cursiva 
+#<span></span> se utiliza para hacer maquetacion posteriormente con CSS
+#<small> Le da menos importancia al texto, osea mas pequeño que el comun en el nav.
+#<i></i> Se utiliza para poner el texto en cursiva al igual que <em></em>
+#<b> Pone en negrita el Texto.
+#<u> Subrraya el Texto.
+#<s> Tacha el Texto. Deja de ser importante.
+#<blockquote></blockquote> se utiliza para remarcar una cita dentro de un texto, lo identa dentro del texto.
+#<mark></mark) Sobresalta el texto con color para aumentar su lerevancia.
+#<cite> Sirve para hacer mension a un proyecto creativo. Cita el texto, letra Italica. usarlo dentro de otra etiqueta H.
+#<sub> Representa un Subindice, H<sub>2</sub>+5=10  -  x´4
+#<sup> Representa un superindice, X<sup>2</sup>O   -  H2O
+#<abbr> se usa para abreviar una palabra, tittle="kilometros">KM</abbr> Abreviaria KM y al poner el click se ve Kilometros.
+
+       #LISTA 
+#Listas Ordenadas se utilizan las etiquetas <ol></ol>, y los elementos de la lista se meten con <li>"elemento"</li>> (Enumerada con numeros)
+#Listas Desordenadas se utiliza de igual manera pero se usan las etiquetas <ul></ul> (Se marcan los elementos con Puntos)
+Se pueden meter links o redirecciones a otras pag.
+
+       #TABLA
+Con la etiqueta <Table> </table> , creo una Tabla
+Para meter una fila de elementos en la tabla uso la etiqueta <tr> </tr>
+Para meter una columna de elementos uso la etiqueta <td> Nombres.. </td> las columnas que quiera
+Atributo para pintar la TABLA dentro de <table usar border="1"
+Con <th metemos encabezado de Tabla, diferenciamos con negrita los nombres de la tabla, asi los principales que contienen info serian th, los datos en td
+Dentro de los td, se utiliza colspan=" " para expandir la columna tanto como yo quiera
+
+       #FORMULARIO
+Es para enviar INFO al servidor, y para que el usuario por ej. envie su informacion y el server la reconozca
+se crea un encabezado, y para crear el formulario se usa la etiqueta <form> </form>
+se crean campos al mismo, por ejemplo un Texto de esta forma <imput type="text" />
+para agergarle nombre al campo utilizo <label> El nombre del campo </label>
+#placeholder es un campo donde el usuario escribe lo que quiera, ponemos por ej " escriba su nombre "
+#radio buttoms se definen con un imput tipo radio, y se usan para elejir una opcion de las disponibles
+#select es para elejir entre opciones
+
+       #IMAGENES
+Para incrustar imagenes se utiliza la etiqueta <img ...   />
+"dentro de esta etiqueta utilizamos src ="la ruta de la imagen, ya sea directa o relativa"
+
+Para Modificar Tamaño de la Imagen en la web
+width="n px" height="n px"
+con el width manejamos el tamaño sin deformar la imagen
+
+
+     #METADATOS
+Van dentro del HEAD asi no se ve en la pag.
+Aca se meten las palabras claves para posicionar la pag.
+ <meta name="keywords" content= "web,desarrollo,internet,programacion,diseño">
+Aca se mete la descripcion de la pagina
+ <meta name="description" content="Descripcion de la pag. "Pag de desarrollo web"">
+ <meta name="author" content="Autor de la pag">
+<meta name="copyright" content="Montenegro Inc.">
+Este metadato le dice al navegador si es indexada osea mostrada o noidexada para ocultarla
+ <meta name="robots" content="index"> / "noidex" 
+
+     #BODY
+Para estructurar el Body, cuerpo de la pag se usan:
+Encabezado = Donde ponemos de que trata la pag, de que trata.. (Logo de plataforma, el login, el create, busqueda personalizada)
+El nav (Barra de navegacion) va dentro del Encabezado ("Buscar...") 
+
+Para crear un ARTICULO (Toda la pag completa), Que a su ves contiene SECCIONES, y el ASSIDE que es info a la derecha de menos importancia
+FOOTER Es el Pie de pagina, lo que va al Final de la pag.
+
+ #LOGO EN LA PARTE SUPERIOR
+<link rel ="icon" href="Meter direccion de imagen para icono.ico"
+
+-->
+
+
+
+<!-- PREGUNTAS TECNICAS HTML
+
+     Etiqueta <head> ? Uso
+Etiqueta donde se meten los megadatos e informacion que no va a estar directamente visible para el usuario en el navegador.
+Informacion que no va a estar en el cuerpo. Ejms. Carga de addsents, informacion para metadatos, Busqueda de navegador, Hojas de stillo CSS, scpits de JV
+
+     Diferencias con head y body
+En el <body> se pone el contenido y todo lo que realmente va a ver el usuario
+En el <head> se pone informacion para el navegador, etiquetas para el navegador,buscador, nada visible para el usuario 
+
+     Imagen en HTML
+Etiqueta <img>. , atriburo src = con la ruta absoluta o relativa de la imagen o url externa de la imagen , atributo alt para texto alternavito
+
+     Video en HTML
+Etiqueta <video> para un video nativo, ruta src = o etiqueta source para cargar un video de dif. formatos.
+Para video de alguna plataforma o YT, usamos iframe 
+
+     Iframe carga una pagina externa y la integra dentro a la nuestra dentro de una "cajita" para que este visible, "mapas,otra web, graficas, etc.."
+
+     Formularios en HTML
+Etiqueta <form>, podemos usar atributos como method para identificar el http que estas enviando la informacion como "get o post, otros.
+<action> para poner "url" con el cual envio el formulario
+Diferentes areas del formulacio con Etiquetas <input>, <texarea>, <select>, <buttom>.
+
+     Botom Submit envia el formulario a la url del action del formulario
+
+     Diferencia entre Etiqueta <br> & <hr>
+<br> Hace un salto de linea, un ENTER visible en la pagina
+<hr> Hace una linea visible en la pagina que divide los contenidos
+
+     Diferencia entre Etiqueta <ol> & <ul>
+<ol> para crear una lista ordenada, 1., 2...
+<ul> es para crear una lista desordenada, puntos para enumerar, . 
+
+     Diferencia entre Etiqueta <tr> & <td>
+<tr> sirve para crear una fila dentro de una tabla de HTML
+<td> sirve para crear una celda o columna en una tabla de HTML
+
+     Etiqueta generica para crear una caja
+<div> es la mejor opcion, elementos genericos
+Hay otras etiquetas pero son semanticas que no son para elementos genericos, como son <article>,<section>,<mein>,<asaid>,<nav>,<hedder>,<footer>
+Negrita <b>,<strong> 
+Cursiva <i>,<em>
+
+     Crear enlace en HTML
+Etiqueta <a> y utilizar el atributo href para poner una url externa o de tu propio sitio
+
+     Como abrir un enlace en una pestaña externa
+Si tenes un enlace con la etiqueta <a> con el href y eso te abre en la misma pagina, hay que agregar el atributo target y como valor_ blank. "target_blank"
+
+
+
+
+
+
+
+
+
+
+-->
+
